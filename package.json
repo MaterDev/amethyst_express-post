@@ -1,0 +1,24 @@
+{
+  "name": "express-post",
+  "version": "1.0.0",
+  "description": "Express POST Requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaterDev/amethyst_express-post.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaterDev/amethyst_express-post/issues"
+  },
+  "homepage": "https://github.com/MaterDev/amethyst_express-post#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
