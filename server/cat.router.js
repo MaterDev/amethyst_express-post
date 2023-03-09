@@ -16,12 +16,13 @@ router.get("/", (req, res) => {
 router.get("/checkCat", (req, res) => {
 
     if(catPoints > 4) {
-        catFeeling = `🐈‍⬛🐈‍⬛ HAPPY CAT 🐈‍⬛🐈‍⬛`;
+        catFeeling = `🐈‍⬛🐈‍⬛ Mediocre CAT 🐈‍⬛🐈‍⬛`;
     }
     else {
-        catFeeling = `😾 SAD CAT 😾`;
+        catFeeling = `😾😅 SAD CAT 😅😅😾`;
     }
 
+    console.log(catFeeling)
     const catStatus = {
         catPoints,
         catFeeling
